@@ -2,33 +2,30 @@ import React from 'react';
 import './App.css';
 
 class Applause extends React.Component {
-  constructor(props) {
-    super (props);
+  constructor() {
+    super ();
     this.state = {
-      clapsCount: 0,
-    };
-    this.clap = this.clap.bind(this);
+      numOfClaps: 0
+    }
   }
-  clap(num) {
-    // if button is clicked change state of clapsCount by incrementing it
-    num = this.state.clapsCount + 1
-    this.setState({ clapsCount: num});
+  
+  makeItClap () {
+    this.setState({
+      numOfClaps: this.state.numOfClaps + 1
+    })
   }
+
   render () {
     return (
     <div>
-      <h1>Number of Claps: {this.state.clapsCount}</h1>
-      <button onClick={this.clap}>
+      <h1>Number of Claps: {this.state.numOfClaps}</h1>
+      <button onClick={this.makeItClap.bind(this)}>
         Click Here to Clap
       </button>
     </div>
     )
   }
 }
-
-// if the person clicks there, increment the clapsCount
-// button.onClick 
-// this.setState({clapsCount++});
 
 function App() {
   return (
