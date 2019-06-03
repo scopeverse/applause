@@ -17,14 +17,23 @@ class Applause extends React.Component {
 
   render () {
     return (
-    <div>
-      <h1>Number of Claps: {this.state.numOfClaps}</h1>
-      <button onClick={this.makeItClap.bind(this)}>
-        Click Here to Clap
-      </button>
+        <div>
+            <button
+            class="applause-button">
+                <img
+                class="clickable" 
+                src={ require('./clapping-hands.svg') }
+                onClick={this.makeItClap.bind(this)}
+                />
+                <span
+                class="after-button"
+                >{this.state.numOfClaps} clap{`s`}
+                </span>
+            </button>
     </div>
     )
   }
 }
 
 export default Applause;
+

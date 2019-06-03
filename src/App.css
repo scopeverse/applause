@@ -9,7 +9,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: aliceblue;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -21,6 +21,32 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.applause-button {
+  background: none;
+  border: none;
+  display: flex;
+  background-color: aliceblue;
+  margin: 20px;
+  width: 100%;
+}
+
+.applause-button:focus {
+  outline: none;
+}
+
+.applause-button img {
+  margin: 20px;
+}
+
+.after-button {
+  margin: auto 0px auto 0px;
+  font-size: 20px;
+}
+
+.clickable {
+  cursor: pointer;
 }
 
 @keyframes App-logo-spin {
