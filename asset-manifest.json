@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/applause/static/css/main.bdeb531b.chunk.css",
+    "main.css": "/applause/static/css/main.3a06cbbb.chunk.css",
     "main.js": "/applause/static/js/main.8ed81da5.chunk.js",
     "main.js.map": "/applause/static/js/main.8ed81da5.chunk.js.map",
     "runtime~main.js": "/applause/static/js/runtime~main.56210304.js",
@@ -8,9 +8,9 @@
     "static/js/2.335f0c66.chunk.js": "/applause/static/js/2.335f0c66.chunk.js",
     "static/js/2.335f0c66.chunk.js.map": "/applause/static/js/2.335f0c66.chunk.js.map",
     "index.html": "/applause/index.html",
-    "precache-manifest.8d43eeae18b5c00de6bd9ffd4feff329.js": "/applause/precache-manifest.8d43eeae18b5c00de6bd9ffd4feff329.js",
+    "precache-manifest.aa12383e225e38aabef19b1a1d8335f2.js": "/applause/precache-manifest.aa12383e225e38aabef19b1a1d8335f2.js",
     "service-worker.js": "/applause/service-worker.js",
-    "static/css/main.bdeb531b.chunk.css.map": "/applause/static/css/main.bdeb531b.chunk.css.map",
+    "static/css/main.3a06cbbb.chunk.css.map": "/applause/static/css/main.3a06cbbb.chunk.css.map",
     "static/media/clapping-hands.svg": "/applause/static/media/clapping-hands.9c3f1baa.svg"
   }
 }
